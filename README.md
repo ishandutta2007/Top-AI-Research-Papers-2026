@@ -20,45 +20,51 @@ Contributions welcome! Open a PR to add/update entries or include new influentia
 
 ## Top 10 AI Papers of 2026
 
-### 1. Autonomous Scientific Discovery
-- **[The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery](https://arxiv.org)**  
-  Introduces the first fully autonomous framework capable of the entire machine learning research lifecycle — generating novel ideas, writing code, running experiments, visualizing results, and producing complete research papers with an LLM-based peer-review system. A major leap toward AI-driven scientific discovery.
+| Rank | Paper Title | Organization | Key Concept | Paper Link | Open-Source Implementation |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **The AI Scientist** | Sakana AI | Fully autonomous ML research lifecycle. | [arXiv](https://arxiv.org/abs/2408.06292) | [GitHub](https://github.com/SakanaAI/AI-Scientist) |
+| 2 | **SWE-Gym** | Apple / Princeton | Unified environment for training SE agents. | [arXiv](https://arxiv.org/abs/2412.21139) | [GitHub](https://github.com/SWE-Gym/SWE-Gym) |
+| 3 | **DeepSeek-R1** | DeepSeek | Pure RL for complex reasoning. | [arXiv](https://arxiv.org/abs/2501.12948) | [GitHub](https://github.com/deepseek-ai/DeepSeek-R1) |
+| 4 | **Natural Language Autoencoders** | Anthropic | Converting model activations to text. | [Anthropic](https://www.anthropic.com/research/natural-language-autoencoders) | [Interactive](https://transformer-circuits.pub) |
+| 5 | **Cosmos 3** | NVIDIA | Omnimodal world models for Physical AI. | [Technical Report](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf) | [GitHub](https://github.com/nvidia/cosmos) |
+| 6 | **DeepAnalyze** | RUC-DataLab | Autonomous data science via agentic LLMs. | [arXiv](https://arxiv.org/abs/2510.16872) | [GitHub](https://github.com/ruc-datalab/DeepAnalyze) |
+| 7 | **SkillOpt** | Microsoft Research | Self-evolving agent skills via text-optimization. | [arXiv](https://arxiv.org/abs/2605.23904) | [GitHub](https://github.com/microsoft/SkillOpt) |
+| 8 | **Psychopathia Machinalis** | Watson & Hessami | Nosology of AI alignment pathologies. | [MDPI](https://doi.org/10.3390/electronics14163162) | [Website](https://psychopathia.ai) |
+| 9 | **Boltz-2 (AF3 Framework)** | DeepMind / Collaborators | Dynamic biomolecular interaction modeling. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.06.14.659707v1) | [GitHub](https://github.com/jasonkyuyim/boltz) |
+| 10 | **Jupiter** | Microsoft Research | Value-guided search for data analysis. | [arXiv](https://arxiv.org/abs/2509.09245) | [GitHub](https://github.com/microsoft/Jupiter) |
 
-### 2. Next-Gen Software Engineering & Agent Environments
-- **[Training Software Engineering Agents and Verifiers with SWE-Gym](https://arxiv.org)**  
-  Solves a critical training bottleneck by introducing SWE-Gym, the first unified environment tailored specifically for training real-world software engineering agents. Significantly improves autonomous agents' ability to patch bugs and interact with live codebases.
+### Detailed Summaries
 
-### 3. Advanced Reasoning & Self-Correction
-- **[DeepSeek-R1](https://arxiv.org)**  
-  Presents a revolutionary pure reinforcement learning (RL) approach to develop complex reasoning capabilities with minimal reliance on human validation. Demonstrates that high-level step-by-step logical reasoning can be achieved at a fraction of traditional computational cost.
+1. **The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery**  
+   Introduces the first fully autonomous framework capable of the entire machine learning research lifecycle — generating novel ideas, writing code, running experiments, visualizing results, and producing complete research papers with an LLM-based peer-review system.
 
-### 4. Mechanistic Interpretability
-- **[Interpretability Advances with Claude (Anthropic Research)](https://arxiv.org)**  
-  Uses a "microscope-like" architecture to reveal that frontier models pre-plan contextual paragraphs ahead of time rather than processing purely token-by-token. Major advancement in understanding and improving AI safety through mechanistic interpretability.
+2. **Training Software Engineering Agents and Verifiers with SWE-Gym**  
+   Solves a critical training bottleneck by introducing SWE-Gym, the first unified environment tailored specifically for training real-world software engineering agents. Significantly improves autonomous agents' ability to patch bugs.
 
-### 5. Omnimodal Physical AI
-- **[Cosmos 3: Omnimodal World Models for Physical AI (NVIDIA)](https://arxiv.org)**  
-  Introduces a highly scalable mixture-of-transformers architecture for processing and generating multiple continuous data types simultaneously. Sets a new standard for physical robots and autonomous systems in real-world environments.
+3. **DeepSeek-R1**  
+   Presents a revolutionary pure reinforcement learning (RL) approach to develop complex reasoning capabilities with minimal reliance on human validation. Demonstrates high-level step-by-step logical reasoning at low cost.
 
-### 6. Autonomous Data Science
-- **[DeepAnalyze: Autonomous Data Science via Agentic LLMs](https://arxiv.org)**  
-  Introduces DeepAnalyze-8B, a specialized agentic model trained with a curriculum-based paradigm. Fully automates raw data cleaning, statistical pipeline building, and executive report writing at human-expert level.
+4. **Interpretability Advances with Claude (Natural Language Autoencoders)**  
+   Uses NLAs to convert a model's internal activations directly into human-readable natural language. Revealed "evaluation awareness" and hidden motivations in frontier models.
 
-### 7. Dynamic Agent Architectures
-- **[SkillOpt: Executive Strategy for Self-Evolving Agent Skills (Microsoft Research)](https://arxiv.org)**  
-  Introduces a systematic text-space optimizer that treats agent skills as an external, evolvable state. Enables AI agents to continuously learn and update new execution skills on the fly with zero deployment overhead.
+5. **Cosmos 3: Omnimodal World Models for Physical AI (NVIDIA)**  
+   Introduces a highly scalable mixture-of-transformers architecture for processing and generating multiple continuous data types simultaneously. Sets a new standard for physical robots.
 
-### 8. AI Safety and Alignment Diagnostics
-- **[Psychopathia Machinalis (Watson & Hessami)](https://arxiv.org)**  
-  Formulates a taxonomy of 32 distinct ways AI systems deviate from user intent. Proposes "therapeutic robopsychological alignment" as a framework to diagnose and self-correct misaligned AI systems.
+6. **DeepAnalyze: Autonomous Data Science via Agentic LLMs**  
+   Introduces DeepAnalyze-8B, a specialized agentic model trained with a curriculum-based paradigm. Fully automates raw data cleaning, statistical pipeline building, and executive report writing.
 
-### 9. Physical Sciences & Structural Biology
-- **[AlphaFold 3 / Bolts 2 Frameworks (DeepMind & Collaborators)](https://arxiv.org)**  
-  Extends beyond static structures to model dynamic interactions of proteins, DNA, and ligands in real time. Dramatically reduces structural drug screening timelines and accelerates biomedical discovery.
+7. **SkillOpt: Executive Strategy for Self-Evolving Agent Skills (Microsoft Research)**  
+   Introduces a systematic text-space optimizer that treats agent skills as an external, evolvable state. Enables AI agents to continuously learn and update new execution skills on the fly.
 
-### 10. Data Analysis & Notebook Search
-- **[Jupiter: Enhancing LLM Data Analysis Capabilities via Notebook and Inference-Time Value-Guided Search](https://arxiv.org)**  
-  Combines the new NbQA dataset (real Jupyter notebook tasks) with value-guided sequential search. Overcomes major reasoning challenges in multi-step data analysis, math, and code execution pipelines.
+8. **Psychopathia Machinalis (Watson & Hessami)**  
+   Formulates a taxonomy of distinct ways AI systems deviate from user intent. Proposes "therapeutic robopsychological alignment" to diagnose and self-correct misaligned systems.
+
+9. **AlphaFold 3 / Boltz-2 Frameworks (DeepMind & Collaborators)**  
+   Extends beyond static structures to model dynamic interactions of proteins, DNA, and ligands in real time. Boltz-2 adds binding affinity prediction at 1000x speedup.
+
+10. **Jupiter: Enhancing LLM Data Analysis Capabilities via Notebook and Inference-Time Value-Guided Search**  
+    Combines the new NbQA dataset with value-guided sequential search. Overcomes major reasoning challenges in multi-step data analysis and code execution pipelines.
+
 
 ## How to Contribute
 
