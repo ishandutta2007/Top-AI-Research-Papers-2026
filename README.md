@@ -20,18 +20,18 @@ Contributions welcome! Open a PR to add/update entries or include new influentia
 
 ## Top 10 AI Papers of 2026
 
-| Rank | Paper Title | Organization | Key Concept | Paper Link | Open-Source Implementation |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | **The AI Scientist** | Sakana AI | Fully autonomous ML research lifecycle. | [arXiv](https://arxiv.org/abs/2408.06292) | [GitHub](https://github.com/SakanaAI/AI-Scientist) |
-| 2 | **SWE-Gym** | Apple / Princeton | Unified environment for training SE agents. | [arXiv](https://arxiv.org/abs/2412.21139) | [GitHub](https://github.com/SWE-Gym/SWE-Gym) |
-| 3 | **DeepSeek-R1** | DeepSeek | Pure RL for complex reasoning. | [arXiv](https://arxiv.org/abs/2501.12948) | [GitHub](https://github.com/deepseek-ai/DeepSeek-R1) |
-| 4 | **Natural Language Autoencoders** | Anthropic | Converting model activations to text. | [Anthropic](https://www.anthropic.com/research/natural-language-autoencoders) | [Interactive](https://transformer-circuits.pub) |
-| 5 | **Cosmos 3** | NVIDIA | Omnimodal world models for Physical AI. | [Technical Report](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf) | [GitHub](https://github.com/nvidia/cosmos) |
-| 6 | **DeepAnalyze** | RUC-DataLab | Autonomous data science via agentic LLMs. | [arXiv](https://arxiv.org/abs/2510.16872) | [GitHub](https://github.com/ruc-datalab/DeepAnalyze) |
-| 7 | **SkillOpt** | Microsoft Research | Self-evolving agent skills via text-optimization. | [arXiv](https://arxiv.org/abs/2605.23904) | [GitHub](https://github.com/microsoft/SkillOpt) |
-| 8 | **Psychopathia Machinalis** | Watson & Hessami | Nosology of AI alignment pathologies. | [MDPI](https://doi.org/10.3390/electronics14163162) | [Website](https://psychopathia.ai) |
-| 9 | **Boltz-2 (AF3 Framework)** | DeepMind / Collaborators | Dynamic biomolecular interaction modeling. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.06.14.659707v1) | [GitHub](https://github.com/jasonkyuyim/boltz) |
-| 10 | **Jupiter** | Microsoft Research | Value-guided search for data analysis. | [arXiv](https://arxiv.org/abs/2509.09245) | [GitHub](https://github.com/microsoft/Jupiter) |
+| Rank | Paper Title | Organization | Year | Key Concept | Paper Link | Open-Source Implementation |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **The AI Scientist** | Sakana AI | 2024 | Fully autonomous ML research lifecycle. | [arXiv](https://arxiv.org/abs/2408.06292) | [GitHub](https://github.com/SakanaAI/AI-Scientist) |
+| 2 | **SWE-Gym** | Apple / Princeton | 2024 | Unified environment for training SE agents. | [arXiv](https://arxiv.org/abs/2412.21139) | [GitHub](https://github.com/SWE-Gym/SWE-Gym) |
+| 3 | **DeepSeek-R1** | DeepSeek | 2025 | Pure RL for complex reasoning. | [arXiv](https://arxiv.org/abs/2501.12948) | [GitHub](https://github.com/deepseek-ai/DeepSeek-R1) |
+| 4 | **Natural Language Autoencoders** | Anthropic | 2026 | Converting model activations to text. | [Anthropic](https://www.anthropic.com/research/natural-language-autoencoders) | [Interactive](https://transformer-circuits.pub) |
+| 5 | **Cosmos 3** | NVIDIA | 2026 | Omnimodal world models for Physical AI. | [Technical Report](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf) | [GitHub](https://github.com/nvidia/cosmos) |
+| 6 | **DeepAnalyze** | RUC-DataLab | 2025 | Autonomous data science via agentic LLMs. | [arXiv](https://arxiv.org/abs/2510.16872) | [GitHub](https://github.com/ruc-datalab/DeepAnalyze) |
+| 7 | **SkillOpt** | Microsoft Research | 2026 | Self-evolving agent skills via text-optimization. | [arXiv](https://arxiv.org/abs/2605.23904) | [GitHub](https://github.com/microsoft/SkillOpt) |
+| 8 | **Psychopathia Machinalis** | Watson & Hessami | 2025 | Nosology of AI alignment pathologies. | [MDPI](https://doi.org/10.3390/electronics14163162) | [Website](https://psychopathia.ai) |
+| 9 | **Boltz-2 (AF3 Framework)** | DeepMind / Collaborators | 2025 | Dynamic biomolecular interaction modeling. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.06.14.659707v1) | [GitHub](https://github.com/jasonkyuyim/boltz) |
+| 10 | **Jupiter** | Microsoft Research | 2025 | Value-guided search for data analysis. | [arXiv](https://arxiv.org/abs/2509.09245) | [GitHub](https://github.com/microsoft/Jupiter) |
 
 ### Detailed Summaries
 
