@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=beautie&color=auto&height=300&section=header&text=Top%20AI%20Research%202026&fontSize=70&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Top%20AI%20Research%202026&fontSize=70&animation=fadeIn" />
 </p>
 
 <p align="center">
